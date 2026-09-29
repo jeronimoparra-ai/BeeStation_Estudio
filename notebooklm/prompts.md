@@ -1,11 +1,19 @@
-# Prompts para NotebookLM
+# Prompts para Gemini Notebook (antes NotebookLM)
 
-Pega el bloque completo en el **chat** del cuaderno (o en Studio, para las piezas
-indicadas). Cambia solo lo que está entre `[corchetes]`.
+**Cómo se usa este archivo:** en el cuaderno de <https://notebook.google.com>,
+abre el panel **Studio** (columna derecha), pulsa el **lápiz** ✏️ de la pieza
+que quieras generar y pega el bloque completo en **«Introduce una petición»**.
+
+Si la pieza es una pregunta libre, pégame el bloque en el **chat**.
+Cambia solo lo que está entre `[corchetes]`.
+
+> Nombres actuales de la interfaz (no los viejos de NotebookLM):
+> **Informe** · **Cuestionarios** · **Tarjetas didácticas** ·
+> **Resumen de vídeo** · **Mapa mental**.
 
 ---
 
-## 01 · Guía interactiva → usa **Studio › Report**
+## 01 · Guía interactiva → **Studio › Informe**
 
 ```
 Crea una guía de estudio interactiva para aprender el proyecto BeeStation.
@@ -31,7 +39,7 @@ Reglas:
 
 ---
 
-## 02 · Quiz de salida → usa **Studio › Quizzes**
+## 02 · Quiz de salida → **Studio › Cuestionarios**
 
 ```
 Genera un quiz de 15 preguntas para evaluar al final de una sesión de 2 horas 30 minutos.
@@ -52,7 +60,7 @@ Al final, incluye una tabla resumen de los temas donde suele fallar este grupo.
 
 ---
 
-## 03 · Flashcards → usa **Studio › Flashcards**
+## 03 · Tarjetas didácticas → **Studio › Tarjetas didácticas**
 
 ```
 Crea 25 tarjetas de repaso a partir de la fuente.
@@ -73,7 +81,10 @@ Reglas:
 
 ---
 
-## 04 · Video Overview → usa **Studio › Video Overview**
+## 04 · Resumen de vídeo → **Studio › Resumen de vídeo**
+
+Formato: elige **Explicación** (3–4 min) o **Corto** (60 s).
+Idioma: **Español (Latinoamérica)**. ⚠️ Puede tardar **más de 30 minutos**.
 
 Genera uno por día (límite: 3 al día). Copia una variante:
 
@@ -131,7 +142,7 @@ Tono tranquilo: el objetivo es que dejen de tener miedo a los errores.
 
 ---
 
-## 05 · Mapa mental → usa **Studio › Mind Map**
+## 05 · Mapa mental → **Studio › Mapa mental**
 
 ```
 Crea un mapa mental del sistema BeeStation con 3 niveles:
@@ -142,7 +153,7 @@ NIVEL 2:
 - Hardware → ESP32 · sensores · alimentación
 - Software → firmware · API PHP · base de datos · dashboard
 - Datos → JSON · HTTP · indicadores · alertas
-- Aprendizaje → PlatformIO · Wokwi · NotebookLM · ejercicios e01-e03
+- Aprendizaje → PlatformIO · Wokwi · Gemini Notebook · ejercicios e01-e03
 
 NIVEL 3: 2 a 4 hojas por rama, con términos concretos de la fuente.
 
@@ -151,7 +162,7 @@ Evita términos vagos como "configuración" o "ajustes".
 
 ---
 
-## 06 · Informe ejecutivo (si piden resumen) → usa **Studio › Report**
+## 06 · Informe ejecutivo (si piden resumen) → **Studio › Informe**
 
 ```
 Resume la fuente en un informe de UNA página para presentar el proyecto a un

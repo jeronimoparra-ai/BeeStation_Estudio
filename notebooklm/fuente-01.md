@@ -1,6 +1,6 @@
 # Fuente 01 — BeeStation: cómo funciona el sistema
 
-> Material base para el cuaderno de NotebookLM. Escrito en tercera persona,
+> Material base para el cuaderno de Gemini Notebook (antes NotebookLM). Escrito en tercera persona,
 > con hechos y números, sin relleno. Cubre qué es, cómo fluye un dato, qué mide
 > cada cosa y cuáles son las limitaciones actuales.
 
@@ -209,7 +209,7 @@ completo:
 | Frontend | PHP + HTML + JavaScript + CSS |
 | Control de versiones | GitHub |
 | Simulación | Wokwi (circuito virtual), sin hardware físico |
-| Material didáctico | Google NotebookLM |
+| Material didáctico | Google Gemini Notebook (antes NotebookLM) |
 
 ---
 
