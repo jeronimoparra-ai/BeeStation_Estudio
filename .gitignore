@@ -1,0 +1,17 @@
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+
+# Backend (datos generados en vivo)
+backend/datos/*.json
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.log
+__pycache__/
